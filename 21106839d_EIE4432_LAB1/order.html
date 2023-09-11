@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>
+            21106839d_Drink Ordering Form
+        </title>
+        <link rel="stylesheet" href="styles/order.css">
+    </head>
+    <body>
+        <header>
+            <h1 >
+                Drink Ordering System
+            </h1>
+        </header>
+        <nav>
+            <ul> 
+                <li > 
+                    <a  href="index.html" >Home</a>
+                </li>
+                <li class="currentPage">
+                    <a href="#">Order</a>
+                </li>    
+                <li>
+                    <a href="#">Menu</a>
+                </li>        
+            </ul>
+        </nav>
+
+        <main>
+            <form action="#" method="post">
+                <div class="name-input">
+                    <label>
+                        Name
+                    </label>  
+                    
+                    <input type="text">
+                    
+                </div>
+
+                <div class="drink-select">
+                    <label for="drink">
+                        Drink
+                    </label>
+
+                    <select id="drink" name="drink">
+                        <option>
+                            bubble-milktea
+                        </option>
+                        <option>
+                            iced-latte
+                        </option>
+                        <option>
+                            pineapple juice
+                        </option>
+                    </select>
+                </div>
+
+                <div class="size-select">
+                    <label for="size">
+                        Size
+                    </label>
+                    <input type="radio" value="1" name="size"> small
+                    <input type="radio" value="2" name="size"> medium
+                    <input type="radio" value="3" name="size"> large
+
+                </div>    
+
+                <div class="submission" >
+                    <input type="submit" value="Place Order">
+                </div>
+
+            </form>    
+        </main>
+        <footer>
+            21106839d JI ZIAO - EIE4432 Lab1 Project
+        </footer>
+    </body>
+</html>
